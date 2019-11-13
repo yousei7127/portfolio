@@ -1,0 +1,183 @@
+.container{
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+}
+header{
+  width: 80%;
+  margin: 0 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+.header-logo{
+  padding-left: 35px;
+}
+
+.nav{
+  padding: 10px 50px 0 0;
+}
+.nav :hover{
+  opacity: 0.7;
+}
+
+ul{
+  margin: 0 auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+  margin: 0;
+}
+h2{
+  font-size: 40px;
+  padding-left: 100px;
+}
+
+#profile{
+  height: 350px;
+  background-color: white;
+  padding-top: 100px;
+}
+.self-introduction{
+  display: flex;
+  justify-content: space-around;
+}
+.profile-right{
+  padding-left: 50px;
+}
+.sns-btn{
+  padding: 15px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 50px
+}
+.sns-btn:hover{
+  opacity: 0.8;
+}
+.fab{
+  margin-right: 5px;
+}
+.facebook{
+  background-color: #3B5898;
+}
+.twitter{
+  background-color: #1DA1F2;
+}
+.instagram{
+  background: linear-gradient(25deg, #FED573,#FC0072, #323BF2);
+}
+
+dt{
+  float: left;
+}
+
+dd{
+  margin-left: 80px;
+}
+#interest{
+  background-color: black;
+}
+#interest h2{
+  color: white;
+  padding-top: 20px;
+}
+.books{
+  display: flex;
+  justify-content: flex-start;
+}
+.books-icon{
+  display: inline-block;
+  position: relative;
+
+}
+.books-icon p{
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 60px;
+  left: 200px;
+
+}
+.books-text{
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  padding-left: 50px;
+}
+.sports{
+  display: flex;
+  justify-content: flex-start;
+}
+.sports-icon{
+  display: inline-block;
+  position: relative;
+}
+.sports-icon p{
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+.sports-text{
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  width: 500px;
+  padding-left: 50px;
+}
+.books-icon :hover{
+  opacity: 0.7;
+}
+.sports-icon :hover{
+  opacity: 0.7;
+}
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+}
+#contact-form h2{
+  padding-right: 100px;
+}
+input,textarea{
+  width: 400px;
+  padding: 20px;
+  font-size: 20px;
+}
+.submit{
+  margin: 30px 0;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: black;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.submit:active{
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
