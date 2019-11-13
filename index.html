@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>portfolio</title>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="header-logo">
+          <h1>Hisatsune Yousei</h1>
+        </div>
+        <div class="nav">
+          <ul>
+            <li> <a href="#profile">profile</a> </li>
+            <li> <a href="#interest">interest</a> </li>
+            <li> <a href="#contact-form">contact-form</a> </li>
+          </ul>
+        </div>
+    </header>
+
+    <section id="profile">
+      <div class="container">
+        <h2 name="ancer">profile</h2>
+        <div class="self-introduction">
+          <div class="profile-left">
+            <img src="profile1.jpg" height="200" width="200" alt="">
+          </div>
+          <div class="profile-right">
+            <div class="introduction">
+              <dl>
+                <dt>名前</dt>
+                <dd>久恒陽聖</dd>
+                <dt>年齢</dt>
+                <dd>20</dd>
+                <dt>所属</dt>
+                <dd>関西大学(総合情報学部)</dd>
+              </dl>
+            </div>
+            <div class="sns">
+              <h3>SNS</h3>
+              <a class="sns-btn facebook" href="https://www.facebook.com/people/%E4%B9%85%E6%81%92%E9%99%BD%E8%81%96/100009885821839"><i class="fab fa-facebook"></i>Facebook</a>
+              <a class="sns-btn twitter" href="https://twitter.com/un2kht2tukkpc6k"><i class="fab fa-twitter-square"></i>Twitter</a>
+              <a class="sns-btn instagram" href="https://www.instagram.com/golden_shimajiro/"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interest">
+      <div class="container">
+        <h2>interest</h2>
+        <div class="books">
+          <div class="books-icon">
+            <img src="book.webp" height="250" width="500" alt="">
+            <p>books</p>
+          </div>
+          <div class="books-text">
+            <p>毎日２時間は本を読みます。目標は1日１冊読める読書術を身に付けること。哲学、心理学、宗教に最近は興味を持っています。</p>
+          </div>
+        </div>
+        <div class="sports">
+          <div class="sports-icon">
+            <img id=mypic src="sports.webp" height="250" width="500" alt="">
+
+            <script>
+            var pics_src = new Array("sports.webp","portfolio.img-2.jpg","sports3.JPG");
+            var num = -1;
+
+            slideshow_timer();
+
+            function slideshow_timer(){
+                if (num == 2){
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("mypic").src=pics_src[num];
+                setTimeout("slideshow_timer()",1000);
+            }
+            </script>
+
+
+
+
+            <p>sports</p>
+          </div>
+          <div class="sports-text">
+            <p>僕自身６歳から現在もプレーしているサッカーを通じ得た人間的成長、例えばフェアプレー精神などスポーツの魅力をたくさんの人に触れてもらい興味を持ってもらえるような活動を今後はしていきたいと考えています。</p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <section id=contact-form>
+      <h2>Contact-form</h2>
+      <p>メールアドレス</p>
+      <input type="#" name="" value="">
+      <p>お問い合わせ内容</p>
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <input class="submit" type="submit" name="" value="送信">
+
+    </section>
+
+    <footer>
+      <p>©️Hisatsune Yousei</p>
+    </footer>
+  </body>
+</html>
